@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 })
 
 
-app.post( '/sneha' , function (req, res) {
+app.post( '/sneha2' , function (req, res) {
    console.log("Got a POST request for the homepage");
    res.send('Hello POST');
 })
